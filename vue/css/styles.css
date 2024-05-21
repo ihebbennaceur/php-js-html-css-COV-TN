@@ -1,0 +1,60 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrer le contenu dans le conteneur */
+}
+
+/* Profile picture styles */
+.profile-picture {
+    width: 100px; /* Ajustez la largeur selon votre conception */
+    height: 100px; /* Ajustez la hauteur selon votre conception */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px; /* Espace au-dessus de l'image */
+    border: 2px solid #ccc; /* Optionnel : Ajouter une bordure autour de la photo de profil */
+}
+
+/* Heading styles */
+h2 {
+    color: #333;
+    margin-bottom: 10px; /* Espace en bas du titre */
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 20px; /* Espace au-dessus de la navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
